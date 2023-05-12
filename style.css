@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 01-May-2023, 12:43:47 pm
+    Author     : HP
+*/
+
+.box{
+  
+   position: relative;
+   left: 220px;
+   top: 40px;
+   width:850px;
+   height: 600px;
+   border-radius:10px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.form{
+    width:200px;
+    margin-left:60px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-items: center;
+    position: relative;
+    right: 25px;
+    
+}
+
+.login-img{
+    margin:172px 0 0 ;
+    width:550px;
+    height:550px;
+    position: relative; 
+    left: 270px;
+    bottom: 505px;
+    border-radius: 5px;
+}
+
+.form-p{
+    font-family: Georgia;
+    position: relative;
+    top: 110px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.logo{
+    position: relative;
+    top: 70px;
+}
+
+  
